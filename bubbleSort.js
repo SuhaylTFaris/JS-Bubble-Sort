@@ -49,4 +49,18 @@
 //       }
 //    return arr;
 // }
+//
+// Third Solution: Runs at same speed as solution 1.
+// function bubbleSort(arr){
+//  for (var i = 0; i < arr.length; i++) {
+//    var temp = 0
+//    if (arr[i] > arr[i+1]) {
+//      temp = arr[i];
+//      arr[i] = arr[i+1];
+//      arr[i+1] = temp;
+//      bubbleSort(arr);
+//    }
+//  }
+//  return arr;
+// }
 module.exports = bubbleSort;
