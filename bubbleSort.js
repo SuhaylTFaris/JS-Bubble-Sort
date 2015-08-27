@@ -81,4 +81,34 @@
 //   }
 //   return arr;
 // }
+//
+//Fifth Solution: Runs at same speed
+//as solution 1.
+//
+// function bubbleSort(arr){
+//   var solution = arr.slice();
+//   var swap = true;
+     //Uses while loop with the var
+     //swap to check while the data
+     //is not "swapped" in accordance
+     //to the for(if) function to swap
+     //til it meets the jasmine tests
+     //requirements.
+     //Once all data is swapped;
+     //it'll change "swap" back to
+     //true ending the while loop.
+//   while(swap) {
+//     swap = false;
+//     for (var i = 0; i < solution.length-1; i++) {
+//       if (solution[i] > solution[i+1]) {
+//         var tmp = solution[i];
+//         solution[i] = solution[i+1];
+//         solution[i+1] = tmp;
+//         swap = true;
+//       }
+//     }
+//   }
+//
+//   return solution;
+// }
 module.exports = bubbleSort;
